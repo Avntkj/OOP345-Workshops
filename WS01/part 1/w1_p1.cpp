@@ -9,6 +9,7 @@
     #error "The header guard for 'Event.h' doesn't follow the convention!"
 #endif
 
+//-- to avoid conflict with the cout object of ostream
 int cout = 0; // won't compile if headers don't follow convention regarding namespaces
 
 
